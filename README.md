@@ -50,6 +50,6 @@ Results-driven graduate specializing in **Cybersecurity and Cloud Technologies**
 ---
 
 ### 📫 Connect with Me
-* **LinkedIn:** [Chethan-S](https://www.linkedin.com/in/chethan-s-6b407035b/) 
+* **LinkedIn:** [Chethan-S](https://www.linkedin.com/in/chethan-s-023264385?utm_source=share_via&utm_content=profile&utm_medium=member_android) 
 * **Email:** chethansc012@gmail.com 
 * **Location:** Bangalore, India
