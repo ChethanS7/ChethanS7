@@ -15,13 +15,13 @@ Results-driven graduate specializing in **Cybersecurity and Cloud Technologies**
 
 ### 🚀 Featured Projects
 
-#### [Real-time Firewall with GUI](https://github.com/ChethanS7/realtime-firewall-gui)
+#### [Real-time Firewall with GUI](https://github.com/ChethanS7/Real-time-Firewall-with-GUI)
 * Developed a host-based firewall using **Python and Scapy** for live packet monitoring.
 * Implemented **DoS detection** using packet rate analysis and time-window scoring logic.
 * Designed a persistent IP blocking system and **Tkinter-based dashboard** for forensic logging.
 * **Framework Alignment:** Mapped capabilities to **MITRE ATT&CK techniques** (T1046, T1498, T1499).
 
-#### [AI Ransomware Detector](https://github.com/ChethanS7/ai-ransomware-detector)
+#### [AI Ransomware Detector](https://github.com/ChethanS7/AI-ransomware-Detection-System)
 * Built a detection system using **Machine Learning** to identify behavioral anomalies in real-time.
 * Monitors system-level features to halt encryption processes before data loss occurs.
 
