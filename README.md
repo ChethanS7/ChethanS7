@@ -12,7 +12,29 @@ Results-driven graduate specializing in **Cybersecurity and Cloud Technologies**
 * **Tools:** Wireshark, Kali Linux, Burp Suite, Metasploit, Nmap, and Cisco Packet Tracer.
 
 ---
+## 🛡️ Security Research & Bug Bounty
 
+I actively participate in Vulnerability Disclosure Programs (VDP), with a focus on Infrastructure Security and Web Vulnerabilities.
+
+| Program | Vulnerability | Severity | Status |
+| :--- | :--- | :--- | :--- |
+| **Acko** | Exposed Spring Boot Actuator (Information Disclosure) | **Medium** | ✅ Triaged & Fixed |
+
+<details>
+<summary><b>🔍 View Acko Case Study (Exposed Actuator)</b></summary>
+
+### The Find
+Identified an unauthenticated `/actuator` index on a corporate backend (`cx360v2-backend.corp.acko.com`) during a deep-recon sweep.
+
+### Methodology
+1. **Recon:** Utilized `subfinder` to map the `*.corp.acko.com` attack surface, identifying internal-facing assets.
+2. **Fuzzing:** Discovered management endpoints using `ffuf` with targeted wordlists for Spring Boot frameworks.
+3. **Validation:** Confirmed unauthenticated access to system metadata and health metrics through the `/actuator/health` endpoint.
+4. **Impact:** Demonstrated that an attacker could map the internal tech stack and infrastructure blueprint, providing a roadmap for further exploitation.
+
+### Remediation
+Recommended the implementation of Spring Security for all management endpoints and the enforcement of IP-based access restrictions to protect sensitive internal metadata.
+</details>
 ### 🚀 Featured Projects
 
 #### [Real-time Firewall with GUI](https://github.com/ChethanS7/Real-time-Firewall-with-GUI)
@@ -52,4 +74,4 @@ Results-driven graduate specializing in **Cybersecurity and Cloud Technologies**
 ### 📫 Connect with Me
 * **LinkedIn:** [Chethan-S](https://www.linkedin.com/in/chethan-s-023264385?utm_source=share_via&utm_content=profile&utm_medium=member_android) 
 * **Email:** chethansc012@gmail.com 
-* **Location:** Bangalore, India
+* **Location:** anomalies
