@@ -1,5 +1,5 @@
 # Hi, I'm Chethan S 👋 
-**Cybersecurity Researcher | Final-Year B.Tech Computer Science (Cyber Security)**
+**Cybersecurity Researcher | B.Tech Computer Science (Cyber Security)**
 
 Results-driven graduate specializing in **Cybersecurity and Cloud Technologies**. I focus on behavioral anomaly detection, network defense, and building secure software architectures.
 
